@@ -1,0 +1,22 @@
+Include <iostream>
+Using namespace std;
+Int main() 
+{
+Int umur [5];
+Int n, hasil=0;
+Int i;
+For (i=0; i<5; i++) {
+Cout <<"input umur ke-"<<(i+1)<<"=";
+Cin >> umur [i] ;
+} 
+For (n=0 ; n<5 ; ++n) 
+{
+hasil+= umur [n];
+Cout <<endl;
+Cout<<"Hasil ke-"<< n << adalah ="<<hasil<< endl;
+} 
+cout<<endl<<"jumlah umur=<< hasil << endl;
+return 0;
+} 
+
+
